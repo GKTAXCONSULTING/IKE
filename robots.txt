@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_legacy/
+
+Sitemap: https://gktaxconsulting.github.io/IKE/sitemap.xml
