@@ -883,7 +883,8 @@ p { margin: 0; text-wrap: pretty; }
 }
 .footer-grid {
 	display: grid;
-	grid-template-columns: 1.6fr 1fr 1fr;
+	/* brand + three link columns */
+	grid-template-columns: 1.7fr 1fr 1.1fr 1.3fr;
 	gap: clamp(28px, 5vw, 56px);
 	padding-bottom: 48px;
 }
@@ -1034,7 +1035,7 @@ p { margin: 0; text-wrap: pretty; }
 	.about-grid { grid-template-columns: 1fr; }
 	.about-media { max-width: 520px; }
 	.about-media img { aspect-ratio: 4 / 2.9; }
-	.footer-grid { grid-template-columns: 1fr 1fr; }
+	.footer-grid { grid-template-columns: repeat(3, 1fr); }
 	.footer-brand { grid-column: 1 / -1; }
 }
 
