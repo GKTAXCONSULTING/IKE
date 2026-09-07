@@ -1,182 +1,432 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
-	<title>GK CONSULTING IKE </title>
-	<meta charset="UTF-8">
-	<meta name="description" content="GK CONSULTING ΣΥΜΒΟΥΛΕΥΤΙΚΗ">
-	<meta name="keywords" content="cryptocurrency, unica, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!-- ────────────────────────────────────────────────────────────────────
+     ΣΗΜΕΙΩΣΗ: όταν οριστικοποιηθεί το domain, αντικαταστήστε παντού το
+     "https://gktaxconsulting.github.io/IKE/" με την πραγματική διεύθυνση
+     (canonical, og:url, og:image, twitter:image, sitemap.xml, robots.txt).
+     ──────────────────────────────────────────────────────────────────── -->
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/themify-icons.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+<title>GK TAX CONSULTING IKE | Λογιστικό &amp; Φοροτεχνικό Γραφείο στο Περιστέρι</title>
+<meta name="description" content="Λογιστικές, φοροτεχνικές και συμβουλευτικές υπηρεσίες για επιχειρήσεις και ιδιώτες. Σύσταση εταιρειών, τήρηση βιβλίων Β΄ &amp; Γ΄ κατηγορίας, φορολογικές δηλώσεις. Καλαμών 2, Περιστέρι — 210 68 23 454.">
+<link rel="canonical" href="https://gktaxconsulting.github.io/IKE/">
 
+<meta name="author" content="GK TAX CONSULTING IKE">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="geo.region" content="GR-A1">
+<meta name="geo.placename" content="Περιστέρι, Αττική">
+<meta name="format-detection" content="telephone=yes">
 
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12103a" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light">
+<meta name="apple-mobile-web-app-title" content="GK Consulting">
 
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp, Viber, Slack) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GK TAX CONSULTING IKE">
+<meta property="og:locale" content="el_GR">
+<meta property="og:url" content="https://gktaxconsulting.github.io/IKE/">
+<meta property="og:title" content="GK TAX CONSULTING IKE | Λογιστικό &amp; Φοροτεχνικό Γραφείο στο Περιστέρι">
+<meta property="og:description" content="Λογιστικές, φοροτεχνικές και συμβουλευτικές υπηρεσίες για επιχειρήσεις και ιδιώτες. Σύσταση εταιρειών, τήρηση βιβλίων Β΄ &amp; Γ΄ κατηγορίας, φορολογικές δηλώσεις. Καλαμών 2, Περιστέρι — 210 68 23 454.">
+<meta property="og:image" content="https://gktaxconsulting.github.io/IKE/img/og-image.jpg">
+<meta property="og:image:secure_url" content="https://gktaxconsulting.github.io/IKE/img/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="GK TAX CONSULTING IKE — Λογιστικές, Φοροτεχνικές, Συμβουλευτικές Υπηρεσίες">
+
+<!-- X / Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GK TAX CONSULTING IKE | Λογιστικό &amp; Φοροτεχνικό Γραφείο στο Περιστέρι">
+<meta name="twitter:description" content="Λογιστικές, φοροτεχνικές και συμβουλευτικές υπηρεσίες για επιχειρήσεις και ιδιώτες. Σύσταση εταιρειών, τήρηση βιβλίων Β΄ &amp; Γ΄ κατηγορίας, φορολογικές δηλώσεις. Καλαμών 2, Περιστέρι — 210 68 23 454.">
+<meta name="twitter:image" content="https://gktaxconsulting.github.io/IKE/img/og-image.jpg">
+<meta name="twitter:image:alt" content="GK TAX CONSULTING IKE">
+
+<!-- Icons -->
+<link rel="icon" href="img/favicon.ico" sizes="any">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="img/favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="site.webmanifest">
+<meta name="msapplication-TileColor" content="#12103a">
+<meta name="msapplication-TileImage" content="img/favicon-192x192.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/site.css">
+<link rel="preload" as="image" href="img/new/hero.jpg" fetchpriority="high">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["AccountingService", "LocalBusiness"],
+      "@id": "https://gktaxconsulting.github.io/IKE/#business",
+      "name": "GK TAX CONSULTING IKE",
+      "alternateName": "GK Consulting",
+      "description": "Παροχή λογιστικών, φοροτεχνικών και συμβουλευτικών υπηρεσιών σε επιχειρήσεις και ιδιώτες.",
+      "url": "https://gktaxconsulting.github.io/IKE/",
+      "logo": "https://gktaxconsulting.github.io/IKE/img/logo.png",
+      "image": "https://gktaxconsulting.github.io/IKE/img/og-image.jpg",
+      "telephone": "+30-210-682-3454",
+      "email": "dimouacountant@yahoo.gr",
+      "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Καλαμών 2",
+        "addressLocality": "Περιστέρι",
+        "addressRegion": "Αττική",
+        "postalCode": "12134",
+        "addressCountry": "GR"
+      },
+      "areaServed": { "@type": "Country", "name": "Ελλάδα" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Υπηρεσίες",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Σύσταση Εταιριών" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Συμβουλευτικές Υπηρεσίες" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Παρακολούθηση & Υποστήριξη Επιχειρήσεων" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Τήρηση Λογιστικών Βιβλίων Β΄ & Γ΄ κατηγορίας" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Φορολογικές Υποθέσεις Ιδιωτών" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Οργάνωση & Εποπτεία Λογιστηρίων" } }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gktaxconsulting.github.io/IKE/#website",
+      "url": "https://gktaxconsulting.github.io/IKE/",
+      "name": "GK TAX CONSULTING IKE",
+      "inLanguage": "el-GR",
+      "publisher": { "@id": "https://gktaxconsulting.github.io/IKE/#business" }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
+<a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>
 
-	<!-- Header section -->
-	<header class="header-section clearfix">
-		<div class="container-fluid">
-			<a href="index.html" class="site-logo">
-				<img style="max-width: 10%;"src="img/logo.png" alt="">
+<!-- ══ Header ══════════════════════════════════════════════════════════ -->
+<header class="header" id="header">
+	<div class="wrap">
+		<a class="brand" href="#top" aria-label="GK Tax Consulting IKE — Αρχική">
+			<img src="img/logo.png" alt="GK Consulting" width="120" height="112">
+			<span class="brand-txt">
+				<b>GK TAX CONSULTING</b>
+				<span>Ιδιωτική Κεφαλαιουχική Εταιρεία</span>
+			</span>
+		</a>
+
+		<nav class="nav" id="nav" aria-label="Κύρια πλοήγηση">
+			<a href="#etaireia">Η Εταιρεία</a>
+			<a href="#ypiresies">Υπηρεσίες</a>
+			<a href="#epikoinonia">Επικοινωνία</a>
+
+			<div class="nav-foot">
+				<a class="btn btn--primary" href="tel:+302106823454"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.1 9.9a16 16 0 0 0 6 6l1.26-1.26a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 210 68 23 454</a>
+				<a class="btn btn--ghost" href="mailto:dimouacountant@yahoo.gr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg> Email</a>
+			</div>
+		</nav>
+
+		<div class="header-actions">
+			<a class="header-tel" href="tel:+302106823454" aria-label="Τηλεφωνήστε στο 210 68 23 454">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.1 9.9a16 16 0 0 0 6 6l1.26-1.26a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>210 68 23 454</span>
 			</a>
-			<div class="responsive-bar"><i class="fa fa-bars"></i></div>
-
-			<nav class="main-menu">
-
-			</nav>
+			<a class="btn btn--primary btn--sm header-cta" href="#epikoinonia">Επικοινωνία <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+			<button class="burger" id="burger" type="button" aria-label="Άνοιγμα μενού" aria-expanded="false" aria-controls="nav">
+				<span></span><span></span><span></span>
+			</button>
 		</div>
-	</header>
-
-
-	<!-- Header section end -->
-
-	<!-- Hero section -->
-	<section class="hero-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 hero-text">
-					<h2>GK <span>CONSULTING</span> <br> </h2>
-					<h4>Παροχή Λογιστικών - Φοροτεχνικών - Συμβουλευτικών Υπηρεσιών</h4>
-				</div>
-				<div class="col-md-6">
-					<img src="img/main.png" class="laptop-image" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Hero section end -->
-
-  <center>
-        <div class="col">
-            <a href="img/espa.pdf" target="_blank"><img width="1000" src="img/espa-banner.jpg" alt="ΕΠΑνΕΚ 2014-2020" class="img-fluid"></a>
-        </div>
-    </center>
-
-
-
-	<!-- About section -->
-	<section class="about-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 offset-lg-6 about-text">
-					<h2>ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</h2>
-					<h5>Η Λογιστική εταιρεία GK TAX CONSULTING IKE  δραστηριοποιείται στους τομείς της παροχής λογιστικών , φοροτεχνικών και συμβουλευτικών  υπηρεσιών .</h5>
-					<p>Η πολυετής εμπειρία μας στο χώρο και η συνεργασία μας με αξιόλογους συνεργάτες λογιστές φοροτεχνικούς με  πολύχρονη εμπειρία εξασφαλίζει στους πελάτες μας τεκμηριωμένες απαντήσεις σε κάθε τους πρόβλημα καθώς και συμφέρουσες και οικονομικές λύσεις για κάθε ανάγκη που μπορεί να προκύψει.
-						Αναλαμβάνουμε κάθε είδους εργασία, από την οργάνωση και εποπτεία των λογιστηρίων μεγάλων και μικρών επιχειρήσεων μέχρι την τήρηση λογιστικών βιβλίων Β' και Γ' κατηγορίας. Επίσης αναλαμβάνουμε τις φορολογικές υποθέσεις ιδιωτών και την παροχή πλήρους φορολογικής υποστήριξης.
-			  Στόχος μας είναι να προσφέρουμε υψηλής ποιότητας λογιστικές υπηρεσίες πάντα με γνώμονα το όφελος των πελατών μας σε ανταγωνιστικές τιμές.
-			  .</p>
-					
-				</div>
-			</div>
-			<div class="about-img">
-				<img src="img/consulting.jpeg" alt="">
-			</div>
-		</div>
-	</section>
-	<!-- About section end -->
-
-
-	<!-- Features section -->
-	<section class="features-section spad gradient-bg">
-		<div class="container text-white">
-			<div class="section-title text-center">
-				<h2>ΟΙ ΥΠΗΡΕΣΙΕΣ ΜΑΣ</h2>
 	</div>
-			<div class="row">
-				<!-- feature -->
-				<div class="col-md-6 col-lg-4 feature">
-					<i class="ti-mobile"></i>
-					<div class="feature-content">
-						<h4>ΣΥΣΤΑΣΗ ΕΤΑΙΡΙΩΝ</h4>
-						<p> Αναλαμβάνουμε την Σύσταση εταιρείων όλων των μορφών (ΙΚΕ - ΑΕ -ΟΕ -ΕΕ -ΕΠΕ και ΑΤΟΜΙΚΕΣ )</p>
-					</div>
-				</div>
-				<!-- feature -->
-				<div class="col-md-6 col-lg-4 feature">
-					<i class="ti-shield"></i>
-					<div class="feature-content">
-						<h4>ΣΥΜΒΟΥΛΕΥΤΙΚΕΣ ΥΠΗΡΕΣΙΕΣ</h4>
-						<p>Παρέχουμε συμβουλευτική πλήρη υποστήριξη σε θέματα φορολογικά , εργατικά . </p>
-					</div>
-				</div>
-				<!-- feature -->
-				<div class="col-md-6 col-lg-4 feature">
-					<i class="ti-wallet"></i>
-					<div class="feature-content">
-						<h4>ΠΑΡΑΚΟΛΟΥΘΗΣΗ/ΥΠΟΣΤΗΡΙΞΗ</h4>
-						<p>Παρακαλούθηση και υποστήριξη των εργασιών της επιχείρησης και επίλυση οικονομικών ζητηματων.</p>
+</header>
+<div class="scrim" id="scrim" hidden></div>
 
-					</div>
-				</div>
-				<!-- feature -->
+<main id="main">
 
+<!-- ══ Hero ════════════════════════════════════════════════════════════ -->
+<section class="hero" id="top">
+	<div class="hero-mesh" aria-hidden="true"><i></i><i></i><i></i></div>
+
+	<div class="wrap hero-grid">
+		<div class="hero-copy">
+			<span class="hero-pill" data-reveal>
+				<b>GK</b> Λογιστικό &amp; Φοροτεχνικό Γραφείο
+			</span>
+
+			<h1 data-reveal style="--d:60ms">
+				Καθαρά οικονομικά,
+				<em>χωρίς εκπλήξεις.</em>
+			</h1>
+
+			<p class="hero-lead" data-reveal style="--d:120ms">
+				Η GK TAX CONSULTING IKE παρέχει λογιστικές, φοροτεχνικές και συμβουλευτικές
+				υπηρεσίες σε επιχειρήσεις και ιδιώτες — με τεκμηριωμένες απαντήσεις και
+				οικονομικά συμφέρουσες λύσεις σε κάθε ανάγκη.
+			</p>
+
+			<div class="hero-actions" data-reveal style="--d:180ms">
+				<a class="btn btn--primary" href="#epikoinonia">Ζητήστε προσφορά <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+				<a class="btn btn--ghost" href="#ypiresies">Οι υπηρεσίες μας</a>
+			</div>
+
+			<ul class="hero-chips" data-reveal style="--d:240ms">
+				<li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Πολυετής εμπειρία</li>
+				<li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Βιβλία Β΄ &amp; Γ΄ κατηγορίας</li>
+				<li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Επιχειρήσεις &amp; ιδιώτες</li>
+			</ul>
+		</div>
+
+		<div class="hero-visual" data-reveal style="--d:100ms">
+			<figure>
+				<img src="img/new/hero.jpg" alt="Συνεργάτες σε συνάντηση εργασίας με οικονομικά στοιχεία" width="1400" height="1050" fetchpriority="high">
+			</figure>
+			<div class="hero-card">
+				<span class="ico" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6M9 11h2"/></svg>
+				</span>
+				<span>
+					<b>Πλήρης φορολογική υποστήριξη</b>
+					<span>Από τη σύσταση έως την καθημερινή παρακολούθηση.</span>
+				</span>
 			</div>
 		</div>
-	</section>
-	<!-- Features section end -->
+	</div>
+</section>
 
+<!-- ══ Trust strip ═════════════════════════════════════════════════════ -->
+<div class="strip" aria-hidden="true">
+	<div class="strip-track"><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg>Σύσταση Εταιρειών</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Τήρηση Βιβλίων Β΄ &amp; Γ΄</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/></svg>Φορολογικές Δηλώσεις</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>Μισθοδοσία &amp; Εργατικά</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Οργάνωση Λογιστηρίων</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>Φοροτεχνική Υποστήριξη</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m7 15 4-4 3 3 5-6"/></svg>ΙΚΕ · ΑΕ · ΟΕ · ΕΕ · ΕΠΕ</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Συνέπεια στις Προθεσμίες</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg>Σύσταση Εταιρειών</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Τήρηση Βιβλίων Β΄ &amp; Γ΄</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/></svg>Φορολογικές Δηλώσεις</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>Μισθοδοσία &amp; Εργατικά</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Οργάνωση Λογιστηρίων</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>Φοροτεχνική Υποστήριξη</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m7 15 4-4 3 3 5-6"/></svg>ΙΚΕ · ΑΕ · ΟΕ · ΕΕ · ΕΠΕ</span><span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Συνέπεια στις Προθεσμίες</span></div>
+</div>
 
-	<!-- Footer section -->
-	<footer class="footer-section">
-		<div class="container">
-			<div class="row spad">
-				<div class="col-md-6 col-lg-3 footer-widget">
-					<img src="img/logo.png" class="mb-4" alt="">
+<!-- ══ Η Εταιρεία ══════════════════════════════════════════════════════ -->
+<section class="section" id="etaireia">
+	<div class="wrap about-grid">
+		<figure class="about-media" data-reveal>
+			<img src="img/new/about.jpg" alt="Φορολογικά έντυπα, αριθμομηχανή και σημειώσεις σε γραφείο" width="1200" height="900" loading="lazy">
+		</figure>
 
+		<div class="about-text" data-reveal style="--d:120ms">
+			<span class="eyebrow">Σχετικά με εμάς</span>
+			<h2>Μια ομάδα που ξέρει τα νούμερά σας — και τι σημαίνουν.</h2>
+
+			<p class="about-lead">
+				Η λογιστική εταιρεία GK TAX CONSULTING IKE δραστηριοποιείται στους τομείς
+				της παροχής λογιστικών, φοροτεχνικών και συμβουλευτικών υπηρεσιών.
+			</p>
+
+			<p>
+				Η πολυετής εμπειρία μας στον χώρο και η συνεργασία μας με αξιόλογους συνεργάτες
+				λογιστές — φοροτεχνικούς με πολύχρονη εμπειρία εξασφαλίζει στους πελάτες μας
+				τεκμηριωμένες απαντήσεις σε κάθε τους πρόβλημα, καθώς και συμφέρουσες και
+				οικονομικές λύσεις για κάθε ανάγκη που μπορεί να προκύψει.
+			</p>
+			<p>
+				Αναλαμβάνουμε κάθε είδους εργασία, από την οργάνωση και εποπτεία των λογιστηρίων
+				μεγάλων και μικρών επιχειρήσεων μέχρι την τήρηση λογιστικών βιβλίων Β΄ και Γ΄
+				κατηγορίας. Επίσης αναλαμβάνουμε τις φορολογικές υποθέσεις ιδιωτών και την
+				παροχή πλήρους φορολογικής υποστήριξης.
+			</p>
+
+			<ul class="about-points">
+				<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg><span>Υψηλής ποιότητας λογιστικές υπηρεσίες, πάντα με γνώμονα το όφελος των πελατών μας.</span></li>
+				<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg><span>Ανταγωνιστικές τιμές και διαφανής τιμολόγηση, χωρίς κρυφές χρεώσεις.</span></li>
+				<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg><span>Ένα σταθερό πρόσωπο επικοινωνίας για κάθε υπόθεσή σας.</span></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!-- ══ Υπηρεσίες ═══════════════════════════════════════════════════════ -->
+<section class="section section--tint" id="ypiresies">
+	<div class="wrap">
+		<div class="sec-head sec-head--center" data-reveal>
+			<span class="eyebrow">Τι κάνουμε</span>
+			<h2>Οι υπηρεσίες μας</h2>
+			<p>Πλήρης κάλυψη για κάθε στάδιο της επιχείρησής σας — από τη σύσταση μέχρι την καθημερινή παρακολούθηση.</p>
+		</div>
+
+		<div class="cards">
+			<article class="card" data-reveal style="--d:0ms">
+				<span class="ico" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01M9 12v.01M9 15v.01M9 18v.01"/></svg>
+				</span>
+				<h3>Σύσταση Εταιριών</h3>
+				<p>Αναλαμβάνουμε τη σύσταση εταιρειών όλων των μορφών — ΙΚΕ, ΑΕ, ΟΕ, ΕΕ, ΕΠΕ και Ατομικές — από τον φάκελο έως την έναρξη λειτουργίας.</p>
+			</article>
+
+			<article class="card" data-reveal style="--d:70ms">
+				<span class="ico" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+				</span>
+				<h3>Συμβουλευτικές Υπηρεσίες</h3>
+				<p>Παρέχουμε πλήρη συμβουλευτική υποστήριξη σε φορολογικά και εργατικά θέματα, με τεκμηριωμένες απαντήσεις σε κάθε ερώτημα.</p>
+			</article>
+
+			<article class="card" data-reveal style="--d:140ms">
+				<span class="ico" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m7 15 4-4 3 3 5-6"/></svg>
+				</span>
+				<h3>Παρακολούθηση &amp; Υποστήριξη</h3>
+				<p>Παρακολούθηση και υποστήριξη των εργασιών της επιχείρησης και επίλυση οικονομικών ζητημάτων, σε συνεχή βάση.</p>
+			</article>
+
+			<article class="card" data-reveal style="--d:0ms">
+				<span class="ico" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h7M9 11h5"/></svg>
+				</span>
+				<h3>Τήρηση Λογιστικών Βιβλίων</h3>
+				<p>Τήρηση βιβλίων Β΄ και Γ΄ κατηγορίας, με συνέπεια στις προθεσμίες και πλήρη εικόνα της οικονομικής σας πορείας.</p>
+			</article>
+
+			<article class="card" data-reveal style="--d:70ms">
+				<span class="ico" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+				</span>
+				<h3>Φορολογικά Ιδιωτών</h3>
+				<p>Αναλαμβάνουμε τις φορολογικές υποθέσεις ιδιωτών και την παροχή πλήρους φορολογικής υποστήριξης, από τη δήλωση έως το Ε9.</p>
+			</article>
+
+			<article class="card" data-reveal style="--d:140ms">
+				<span class="ico" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+				</span>
+				<h3>Οργάνωση Λογιστηρίων</h3>
+				<p>Οργάνωση και εποπτεία λογιστηρίων μεγάλων και μικρών επιχειρήσεων, με διαδικασίες που δουλεύουν στην πράξη.</p>
+			</article>
+		</div>
+	</div>
+</section>
+
+<!-- ══ ΕΣΠΑ ════════════════════════════════════════════════════════════ -->
+<section class="espa section--tint" id="espa">
+	<div class="wrap espa-inner" data-reveal>
+		<h3>Συγχρηματοδοτούμενο Έργο — ΕΠΑνΕΚ 2014–2020</h3>
+		<a href="img/espa.pdf" target="_blank" rel="noopener" aria-label="Άνοιγμα ενημερωτικού εντύπου ΕΣΠΑ σε PDF">
+			<img src="img/espa-banner.jpg" alt="Αφίσα ΕΠΑνΕΚ 2014-2020 — Ευρωπαϊκή Ένωση, Ευρωπαϊκό Ταμείο Περιφερειακής Ανάπτυξης" width="1473" height="189" loading="lazy">
+		</a>
+	</div>
+</section>
+
+<!-- ══ Επικοινωνία ═════════════════════════════════════════════════════ -->
+<section class="section" id="epikoinonia">
+	<div class="wrap">
+		<div class="sec-head" data-reveal>
+			<span class="eyebrow">Επικοινωνία</span>
+			<h2>Ας μιλήσουμε για την επιχείρησή σας.</h2>
+			<p>Καλέστε μας ή στείλτε μας email.</p>
+		</div>
+
+		<div class="contact-grid">
+			<div class="contact-cards">
+				<div class="ccard" data-reveal>
+					<span class="ico" aria-hidden="true">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+					</span>
+					<div>
+						<h4>Διεύθυνση</h4>
+						<a href="https://www.google.com/maps/search/?api=1&amp;query=%CE%9A%CE%B1%CE%BB%CE%B1%CE%BC%CF%8E%CE%BD+2+%CE%A0%CE%B5%CF%81%CE%B9%CF%83%CF%84%CE%AD%CF%81%CE%B9+12134" target="_blank" rel="noopener">Καλαμών 2, Περιστέρι, Τ.Κ. 12134</a>
+					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 offset-lg-1 footer-widget">
-					<h5 class="widget-title">ΕΠΙΚΟΙΝΩΝΙΑ</h5>
-					<ul>
-						<li><p> Δ/νση : Καλαμών 2-Περιστέρι –τκ 12134 </p></li>
-						<li><p> Τηλ.επικοινωνίας : 210-6823454 </p></li>
-						<li><p> Τηλ.επικοινωνίας : 6945047856-6981902013 </p></li>
 
-					</ul>
+				<div class="ccard" data-reveal style="--d:60ms">
+					<span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.1 9.9a16 16 0 0 0 6 6l1.26-1.26a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+					<div>
+						<h4>Τηλέφωνα</h4>
+						<a href="tel:+302106823454">210 68 23 454</a>
+						<a href="tel:+306945047856">694 504 7856</a>
+						<a href="tel:+306981902013">698 190 2013</a>
+					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-2 offset-lg-1 footer-widget">
-					<h5 class="widget-title">EMAIL ΕΠΙΚΟΙΝΩΝΙΑΣ</h5>
-					<ul>
-						<li><p> dimouacountant@yahoo.gr </p></li>
-						<li><p> gkordonouri@gmail.com </p></li>
-					</ul>
+				<div class="ccard" data-reveal style="--d:120ms">
+					<span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></span>
+					<div>
+						<h4>Email</h4>
+						<a href="mailto:dimouacountant@yahoo.gr">dimouacountant@yahoo.gr</a>
+						<a href="mailto:gkordonouri@gmail.com">gkordonouri@gmail.com</a>
+					</div>
 				</div>
-
 			</div>
-			<div class="footer-bottom">
-				<div class="row">
 
+			<aside class="contact-panel" data-reveal style="--d:100ms">
+				<h3>Κλείστε ένα ραντεβού</h3>
+				<p>Πείτε μας δυο λόγια για την επιχείρηση ή την υπόθεσή σας και θα σας προτείνουμε την πιο συμφέρουσα λύση.</p>
 
-				</div>
+				<a class="btn btn--primary" href="tel:+302106823454"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.1 9.9a16 16 0 0 0 6 6l1.26-1.26a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 210 68 23 454</a>
+				<a class="btn btn--light" href="mailto:dimouacountant@yahoo.gr?subject=%CE%91%CE%AF%CF%84%CE%B7%CE%BC%CE%B1%20%CE%B5%CF%80%CE%B9%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%AF%CE%B1%CF%82"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg> Στείλτε μας email</a>
+			</aside>
+		</div>
+	</div>
+</section>
+
+</main>
+
+<!-- ══ Footer ══════════════════════════════════════════════════════════ -->
+<footer class="footer">
+	<div class="wrap">
+		<div class="footer-grid">
+			<div class="footer-brand">
+				<img src="img/logo.png" alt="GK Consulting" width="120" height="112">
+				<p>
+					GK TAX CONSULTING IKE — Παροχή λογιστικών, φοροτεχνικών και
+					συμβουλευτικών υπηρεσιών σε επιχειρήσεις και ιδιώτες.
+				</p>
+			</div>
+
+			<div>
+				<h5>Πλοήγηση</h5>
+				<ul>
+					<li><a href="index.html">Αρχική</a></li>
+					<li><a href="#etaireia">Η Εταιρεία</a></li>
+					<li><a href="#ypiresies">Υπηρεσίες</a></li>
+					<li><a href="#espa">ΕΣΠΑ</a></li>
+					<li><a href="#epikoinonia">Επικοινωνία</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h5>Δημοσιότητα</h5>
+				<ul>
+					<li><a href="oikonomiki-pliroforisi.html">Οικονομική Πληροφόρηση</a></li>
+					<li><a href="img/espa.pdf" target="_blank" rel="noopener">Ενημερωτικό ΕΣΠΑ (PDF)</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h5>Στοιχεία</h5>
+				<ul>
+					<li><span>Καλαμών 2, Περιστέρι 12134</span></li>
+					<li><a href="tel:+302106823454">210 68 23 454</a></li>
+					<li><a href="tel:+306945047856">694 504 7856</a></li>
+					<li><a href="mailto:dimouacountant@yahoo.gr">dimouacountant@yahoo.gr</a></li>
+					<li><a href="mailto:gkordonouri@gmail.com">gkordonouri@gmail.com</a></li>
+				</ul>
 			</div>
 		</div>
-	</footer>
 
+		<div class="footer-bottom">
+			<span>© <span id="year">2026</span> GK TAX CONSULTING IKE. Με επιφύλαξη παντός δικαιώματος.</span>
+			<span>Καλαμών 2, Περιστέρι — Αττική</span>
+		</div>
+	</div>
+</footer>
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+<a class="totop" id="totop" href="#top" aria-label="Επιστροφή στην κορυφή">
+	<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</a>
+
+<script src="js/site.js"></script>
 </body>
 </html>
